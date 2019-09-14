@@ -1,0 +1,55 @@
+                    ALGORITMO #1
+
+int sacar2Elem(stack s){ //Recibiendo de parametro n#de pilas
+    if (empty(s))    // revisar si la pila esta vacia
+        return -1    // si esta vacia enviar error
+       else          // si no esta vacia, ver si solo tiene un elemento
+    i = pop(s)       // quitamos un elemento de la pila
+    if(empty(s))     // si depues del pop la pila esta vacia significa que habia un elemento, por lo que imprimiria error
+        return -1
+        else         // sino significa que la pila tiene dos o mas elementos
+     return pop(s)   // hacemos un pop para sacar y devolver el segundo elemnto (elemento buscado)
+
+                        }
+
+
+                    ALGORITMO #2
+
+int ver2Elem(stack s){ //Recibiendo de parametro n#de pilas
+     if (empty(s))    // revisar si la pila esta vacia
+        return -1     // si esta vacia enviar error
+       else           // si no esta vacia, ver si solo tiene un elemento
+    a = pop(s)        // quitamos el primer elemento de la pila y lo guardamos en la variable a
+    if(empty(s))      // si depues del pop la pila esta vacia significa que habia un elemento, por lo que imprimiria error
+        return -1
+        else          // sino significa que la pila tiene dos o mas elementos
+     b = pop(s)       // hacemos un pop para sacar el segundo elemnto y se guarda en la variable b
+        push (s, a)   // devolvemos los elemntos returados
+        push (s, b) 
+
+    return b          // retornamos el segundo elemento (elemento buscado) 
+
+
+`                   ALGORITMO #3
+
+int ver2Elem(stack s){ //Recibiendo de parametro n#de pilas
+     if (empty(s))    // revisar si la pila esta vacia
+        return -1     // si esta vacia enviar error
+       else           // si no esta vacia, ver si solo tiene un elemento
+    a = pop(s)        // quitamos el primer elemento de la pila y lo guardamos en la variable a
+    if(empty(s))      // si depues del pop la pila esta vacia significa que habia un elemento, por lo que devolvera ese elemnto.
+        return a
+        else          // sino significa que la pila tiene dos o mas elementos
+     b = pop(s)       // hacemos un pop para sacar el segundo elemnto y se guarda en la variable b
+    
+    while (!empty(s)){
+        pop(s)    
+    }
+    push (s)
+
+
+
+
+
+
+
