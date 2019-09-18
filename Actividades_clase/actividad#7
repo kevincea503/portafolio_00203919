@@ -32,24 +32,14 @@ int ver2Elem(stack s){ //Recibiendo de parametro n#de pilas
 
 `                   ALGORITMO #3
 
-int ver2Elem(stack s){ //Recibiendo de parametro n#de pilas
+nt UltimoElem(stack s, tam){ //Recibiendo de parametro de pila y su tamaño
      if (empty(s))    // revisar si la pila esta vacia
         return -1     // si esta vacia enviar error
        else           // si no esta vacia, ver si solo tiene un elemento
-    a = pop(s)        // quitamos el primer elemento de la pila y lo guardamos en la variable a
-    if(empty(s))      // si depues del pop la pila esta vacia significa que habia un elemento, por lo que devolvera ese elemnto.
-        return a
-        else          // sino significa que la pila tiene dos o mas elementos
-     b = pop(s)       // hacemos un pop para sacar el segundo elemnto y se guarda en la variable b
-    
-    while (!empty(s)){
-        pop(s)    
+   
+      for(i=1, i<tam, i++){  // recorrer la pila con un ciclo
+      if(i=tam)    // llegar al primer elemento de la pila
+a = pop(s, elem)   /// sacarlo
     }
-    push (s)
-
-
-
-
-
-
+    return a    // retornarlo
 
