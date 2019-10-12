@@ -11,14 +11,6 @@ struct TNodo{
 typedef struct TNodo Nodo;
 Nodo *pInicio;
 
-void insertarInicio(int num) {
-    Nodo *nuevo = new Nodo;
-    nuevo->dato = num;
-    nuevo->sig = pInicio;
-
-    pInicio = nuevo;
-}
-
 void insertarFinal(int num) {
     Nodo *nuevo = new Nodo;
     nuevo->dato = num;
@@ -42,9 +34,9 @@ void agregarNumero(){
 
      srand(time(NULL));
 
-    for(c = 1; c <= 10; c++)
+    for(c = 1; c <= 100; c++)
     {
-        num = 1 + rand() % (11 - 1);
+        num = 1 + rand() % (101 - 1);
          insertarFinal(num);
 }
     }
@@ -104,7 +96,7 @@ int main(){
     bool continuar = true;
     do{
         int opcion = 0;
-        cout << "Menu: \n\t1) Agregar Numero\n\t2) mostrar todo los elementos"
+        cout << "Menu: \n\t1) Agregar numeros aleatorio\n\t2) mostrar todo los elementos"
             << "\n\t3) Mostrar los numeros pares\n\t4) Mostrar los numeros impares\n\t5) Mostrar contenido inverso \n\t6) Salir\n\t Opcion: ";
         cin >> opcion;
         switch(opcion){
