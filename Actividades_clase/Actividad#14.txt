@@ -1,0 +1,54 @@
+
+    DIAGRAMA #1
+
+NODO Raiz:Nodo A.
+RAMAS: Nodos B, C, D E.
+HOJAS: Nodos: F, G, H, I
+
+NIVEL: A - Nivel 0
+       B, C - Nivel 1
+       D, E, F - Nivel 3
+       G, H, I, - Nivel 4
+
+PROFUNDIDAD DEL ARBOL: 3 Niveles.
+PESO: 9 Nodos.
+ORDEN: 2.
+
+SUB-ARBOL: posible hacer hasta cinco sub-arboles.
+
+
+ARBOL NO LLENO.
+ARBOL NO PERFECTO.
+
+RECORRIDO: POSTORDEN.
+
+
+
+
+    DIAGRAMA #2
+
+NODO Raiz:Nodo A.
+RAMAS: Nodos B, C, D E, F, H.
+HOJAS: Nodos: I, J, G, K, L.
+
+NIVEL: A - Nivel 0
+       B - Nivel 1
+       C, D - Nivel 3
+       E, F, G, H - Nivel 4
+       I, J, K, L - Nivel 5
+
+PROFUNDIDAD DEL ARBOL: 4 Niveles.
+PESO: 12 Nodos.
+ORDEN: 1.
+
+
+SUB-ARBOL: posible hacer hasta seis sub-arboles.
+
+
+ARBOL NO LLENO.
+ARBOL NO PERFECTO.
+
+RECORRDIDO: POST ORDEN
+
+
+
